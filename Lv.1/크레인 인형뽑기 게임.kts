@@ -1,7 +1,6 @@
 class Solution {
     fun solution(board: Array<IntArray>, moves: IntArray): Int {
         val row = board.size
-        val col = board[0].size
         val answer = mutableListOf<Int>()
         var count = 0
 
